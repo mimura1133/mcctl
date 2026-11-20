@@ -1,0 +1,100 @@
+# key	ja	en   (source of Strings.resx / Strings.ja.resx; regenerate with: python tools/gen_resx.py src/Mcctl.App/Localization)
+RemoveFromList	一覧から削除	Remove from list
+ToggleRoomPane	ルーム一覧の表示 / 折りたたみ	Show / hide rooms
+SearchDevices	ネットワーク上のデバイスを再検索	Search the network for devices
+Rooms	ルーム	Rooms
+AddByIp	IP アドレスで追加	Add by IP address
+Add	追加	Add
+IpExample	例: 192.168.1.20	e.g. 192.168.1.20
+Language	表示言語	Language
+SelectDevice	デバイスを選択してください	Select a device
+Zone	ゾーン	Zone
+MainZone	メインゾーン	Main Zone
+Offline	 · オフライン	 · Offline
+Mute	ミュート	Mute
+VolumeDown	音量 -	Volume down
+VolumeUp	音量 +	Volume up
+Input	入力	Input
+SoundProgram	サウンド	Sound
+Sleep	スリープ	Sleep
+SleepOff	オフ	Off
+SleepMinutes	{0} 分	{0} min
+PowerOnAction	電源を入れる	Turn on
+StandbyAction	スタンバイにする	Standby
+NowPlaying	再生中	Now Playing
+Shuffle	シャッフル	Shuffle
+Previous	前へ	Previous
+PlayPause	再生 / 一時停止	Play / Pause
+Next	次へ	Next
+Stop	停止	Stop
+Repeat	リピート	Repeat
+Tray	トレイ開閉	Open / close tray
+SeekDown	自動選局 ↓	Seek down
+FreqDown	周波数 -	Frequency down
+FreqUp	周波数 +	Frequency up
+SeekUp	自動選局 ↑	Seek up
+PresetPrevButton	◀ プリセット	◀ Preset
+PresetNextButton	プリセット ▶	Preset ▶
+DirectTune	直接選局	Direct tuning
+DirectTuneHint	FM は MHz (例 80.0)、AM は kHz (例 954)	FM in MHz (e.g. 80.0), AM in kHz (e.g. 954)
+Tune	選局	Tune
+FrequencyFormatError	周波数を数値で入力してください (FM: MHz, AM: kHz)。	Enter the frequency as a number (FM: MHz, AM: kHz).
+Browse	ブラウズ	Browse
+BrowseUnavailable	この入力ではブラウズできません (ネットワーク / USB / サーバー入力を選択してください)	This input can't be browsed (choose a network, USB or server input)
+Back	戻る	Back
+Reload	再読み込み	Reload
+SearchPrompt	 — 検索する文字列を入力してください	 — enter a search term
+Cancel	キャンセル	Cancel
+Search	検索	Search
+SearchExample	例: jazz, NHK	e.g. jazz, NHK
+Play	再生	Play
+Open	開く	Open
+Presets	プリセット	Presets
+NetFavorites	お気に入り (ネットワーク)	Favorites (network)
+RecentAndTunerPresets	最近再生した項目 / チューナープリセット	Recently Played / Tuner Presets
+Recent	最近	Recent
+Tuner	チューナー	Tuner
+StorePresetPrefix	ダブルクリックで呼び出し。 再生中の内容をプリセット番号	Double-click to recall. Store what is playing as preset number
+StorePresetSuffix	に保存	Save
+Sound	サウンド	Sound
+ToneControl	トーンコントロール	Tone Control
+Bass	低音 (Bass)	Bass
+Treble	高音 (Treble)	Treble
+SoundFeatures	サウンド機能	Sound Features
+NoSoundFeatures	このデバイスには切り替え可能なサウンド機能がありません。	This device has no switchable sound features.
+Link	リンク	Link
+LinkStatus	現在の状態	Current status
+GroupName	グループ名	Group name
+LinkedDevices	リンク中のデバイス	Linked rooms
+Unlink	リンクを解除	Unlink
+LinkTargets	このデバイスの音声を配信するルーム	Rooms to share this room's audio with
+LinkSelected	選択したルームとリンク	Link selected rooms
+LinkRoleServer	グループのマスター (server)	Group master (server)
+LinkRoleClient	グループのメンバー (client)	Group member (client)
+LinkRoleNone	リンクなし	Not linked
+LinkSelectRequired	リンクするデバイスを選択してください。	Select the rooms to link.
+Info	情報	Info
+DeviceInfo	デバイス情報	Device information
+ReloadAll	すべて再読み込み	Reload all
+InfoModel	モデル	Model
+InfoDeviceId	デバイス ID	Device ID
+InfoSystemId	システム ID	System ID
+InfoDestination	仕向地	Destination
+InfoFirmware	ファームウェア	Firmware
+InfoApiVersion	API バージョン	API version
+InfoNetModule	ネットモジュール	Network module
+InfoIpAddress	IP アドレス	IP address
+AlwaysOnTop	常に手前に表示	Always on top
+NoDevices	デバイスが見つかりません	No devices found
+PresetPrev	前のプリセット	Previous preset
+PresetNext	次のプリセット	Next preset
+Close	閉じる	Close
+ErrorDevice	エラー: {0} ({1})	Error: {0} ({1})
+ErrorNetwork	通信エラー: {0}	Network error: {0}
+ErrorTimeout	応答がありません (タイムアウト)。	No response (timed out).
+ErrorGeneric	エラー: {0}	Error: {0}
+SearchPartialFailure	{0} 台検出、うち {1} 台に接続できません: {2}	Found {0} devices, {1} could not be reached: {2}
+SearchNoDevices	デバイスが見つかりませんでした。IP アドレスを直接入力してください。	No devices found. Enter an IP address instead.
+CannotConnect	{0} に接続できません。{1}	Can't connect to {0}. {1}
+Added	{0} を追加しました。	Added {0}.
+TunerSeeking	選局中…	Seeking…

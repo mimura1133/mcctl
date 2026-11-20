@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from strings.tsv by tools/gen_resx.py. Edit the TSV, not this file. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="RemoveFromList" xml:space="preserve"><value>Remove from list</value></data>
+  <data name="ToggleRoomPane" xml:space="preserve"><value>Show / hide rooms</value></data>
+  <data name="SearchDevices" xml:space="preserve"><value>Search the network for devices</value></data>
+  <data name="Rooms" xml:space="preserve"><value>Rooms</value></data>
+  <data name="AddByIp" xml:space="preserve"><value>Add by IP address</value></data>
+  <data name="Add" xml:space="preserve"><value>Add</value></data>
+  <data name="IpExample" xml:space="preserve"><value>e.g. 192.168.1.20</value></data>
+  <data name="Language" xml:space="preserve"><value>Language</value></data>
+  <data name="SelectDevice" xml:space="preserve"><value>Select a device</value></data>
+  <data name="Zone" xml:space="preserve"><value>Zone</value></data>
+  <data name="MainZone" xml:space="preserve"><value>Main Zone</value></data>
+  <data name="Offline" xml:space="preserve"><value> · Offline</value></data>
+  <data name="Mute" xml:space="preserve"><value>Mute</value></data>
+  <data name="VolumeDown" xml:space="preserve"><value>Volume down</value></data>
+  <data name="VolumeUp" xml:space="preserve"><value>Volume up</value></data>
+  <data name="Input" xml:space="preserve"><value>Input</value></data>
+  <data name="SoundProgram" xml:space="preserve"><value>Sound</value></data>
+  <data name="Sleep" xml:space="preserve"><value>Sleep</value></data>
+  <data name="SleepOff" xml:space="preserve"><value>Off</value></data>
+  <data name="SleepMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="PowerOnAction" xml:space="preserve"><value>Turn on</value></data>
+  <data name="StandbyAction" xml:space="preserve"><value>Standby</value></data>
+  <data name="NowPlaying" xml:space="preserve"><value>Now Playing</value></data>
+  <data name="Shuffle" xml:space="preserve"><value>Shuffle</value></data>
+  <data name="Previous" xml:space="preserve"><value>Previous</value></data>
+  <data name="PlayPause" xml:space="preserve"><value>Play / Pause</value></data>
+  <data name="Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="Repeat" xml:space="preserve"><value>Repeat</value></data>
+  <data name="Tray" xml:space="preserve"><value>Open / close tray</value></data>
+  <data name="SeekDown" xml:space="preserve"><value>Seek down</value></data>
+  <data name="FreqDown" xml:space="preserve"><value>Frequency down</value></data>
+  <data name="FreqUp" xml:space="preserve"><value>Frequency up</value></data>
+  <data name="SeekUp" xml:space="preserve"><value>Seek up</value></data>
+  <data name="PresetPrevButton" xml:space="preserve"><value>◀ Preset</value></data>
+  <data name="PresetNextButton" xml:space="preserve"><value>Preset ▶</value></data>
+  <data name="DirectTune" xml:space="preserve"><value>Direct tuning</value></data>
+  <data name="DirectTuneHint" xml:space="preserve"><value>FM in MHz (e.g. 80.0), AM in kHz (e.g. 954)</value></data>
+  <data name="Tune" xml:space="preserve"><value>Tune</value></data>
+  <data name="FrequencyFormatError" xml:space="preserve"><value>Enter the frequency as a number (FM: MHz, AM: kHz).</value></data>
+  <data name="Browse" xml:space="preserve"><value>Browse</value></data>
+  <data name="BrowseUnavailable" xml:space="preserve"><value>This input can't be browsed (choose a network, USB or server input)</value></data>
+  <data name="Back" xml:space="preserve"><value>Back</value></data>
+  <data name="Reload" xml:space="preserve"><value>Reload</value></data>
+  <data name="SearchPrompt" xml:space="preserve"><value> — enter a search term</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Search" xml:space="preserve"><value>Search</value></data>
+  <data name="SearchExample" xml:space="preserve"><value>e.g. jazz, NHK</value></data>
+  <data name="Play" xml:space="preserve"><value>Play</value></data>
+  <data name="Open" xml:space="preserve"><value>Open</value></data>
+  <data name="Presets" xml:space="preserve"><value>Presets</value></data>
+  <data name="NetFavorites" xml:space="preserve"><value>Favorites (network)</value></data>
+  <data name="RecentAndTunerPresets" xml:space="preserve"><value>Recently Played / Tuner Presets</value></data>
+  <data name="Recent" xml:space="preserve"><value>Recent</value></data>
+  <data name="Tuner" xml:space="preserve"><value>Tuner</value></data>
+  <data name="StorePresetPrefix" xml:space="preserve"><value>Double-click to recall. Store what is playing as preset number</value></data>
+  <data name="StorePresetSuffix" xml:space="preserve"><value>Save</value></data>
+  <data name="Sound" xml:space="preserve"><value>Sound</value></data>
+  <data name="ToneControl" xml:space="preserve"><value>Tone Control</value></data>
+  <data name="Bass" xml:space="preserve"><value>Bass</value></data>
+  <data name="Treble" xml:space="preserve"><value>Treble</value></data>
+  <data name="SoundFeatures" xml:space="preserve"><value>Sound Features</value></data>
+  <data name="NoSoundFeatures" xml:space="preserve"><value>This device has no switchable sound features.</value></data>
+  <data name="Link" xml:space="preserve"><value>Link</value></data>
+  <data name="LinkStatus" xml:space="preserve"><value>Current status</value></data>
+  <data name="GroupName" xml:space="preserve"><value>Group name</value></data>
+  <data name="LinkedDevices" xml:space="preserve"><value>Linked rooms</value></data>
+  <data name="Unlink" xml:space="preserve"><value>Unlink</value></data>
+  <data name="LinkTargets" xml:space="preserve"><value>Rooms to share this room's audio with</value></data>
+  <data name="LinkSelected" xml:space="preserve"><value>Link selected rooms</value></data>
+  <data name="LinkRoleServer" xml:space="preserve"><value>Group master (server)</value></data>
+  <data name="LinkRoleClient" xml:space="preserve"><value>Group member (client)</value></data>
+  <data name="LinkRoleNone" xml:space="preserve"><value>Not linked</value></data>
+  <data name="LinkSelectRequired" xml:space="preserve"><value>Select the rooms to link.</value></data>
+  <data name="Info" xml:space="preserve"><value>Info</value></data>
+  <data name="DeviceInfo" xml:space="preserve"><value>Device information</value></data>
+  <data name="ReloadAll" xml:space="preserve"><value>Reload all</value></data>
+  <data name="InfoModel" xml:space="preserve"><value>Model</value></data>
+  <data name="InfoDeviceId" xml:space="preserve"><value>Device ID</value></data>
+  <data name="InfoSystemId" xml:space="preserve"><value>System ID</value></data>
+  <data name="InfoDestination" xml:space="preserve"><value>Destination</value></data>
+  <data name="InfoFirmware" xml:space="preserve"><value>Firmware</value></data>
+  <data name="InfoApiVersion" xml:space="preserve"><value>API version</value></data>
+  <data name="InfoNetModule" xml:space="preserve"><value>Network module</value></data>
+  <data name="InfoIpAddress" xml:space="preserve"><value>IP address</value></data>
+  <data name="AlwaysOnTop" xml:space="preserve"><value>Always on top</value></data>
+  <data name="NoDevices" xml:space="preserve"><value>No devices found</value></data>
+  <data name="PresetPrev" xml:space="preserve"><value>Previous preset</value></data>
+  <data name="PresetNext" xml:space="preserve"><value>Next preset</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="ErrorDevice" xml:space="preserve"><value>Error: {0} ({1})</value></data>
+  <data name="ErrorNetwork" xml:space="preserve"><value>Network error: {0}</value></data>
+  <data name="ErrorTimeout" xml:space="preserve"><value>No response (timed out).</value></data>
+  <data name="ErrorGeneric" xml:space="preserve"><value>Error: {0}</value></data>
+  <data name="SearchPartialFailure" xml:space="preserve"><value>Found {0} devices, {1} could not be reached: {2}</value></data>
+  <data name="SearchNoDevices" xml:space="preserve"><value>No devices found. Enter an IP address instead.</value></data>
+  <data name="CannotConnect" xml:space="preserve"><value>Can't connect to {0}. {1}</value></data>
+  <data name="Added" xml:space="preserve"><value>Added {0}.</value></data>
+  <data name="TunerSeeking" xml:space="preserve"><value>Seeking…</value></data>
+</root>

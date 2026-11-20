@@ -1,0 +1,8 @@
+<Solution>
+  <!-- Tests (tests/Mcctl.Core.Tests) need NuGet packages, so they are kept out of the solution and run in Docker (see README) -->
+  <Folder Name="/src/">
+    <Project Path="src/Mcctl.Core/Mcctl.Core.csproj" />
+    <Project Path="src/Mcctl.App/Mcctl.App.csproj" />
+    <Project Path="src/Mcctl.Cli/Mcctl.Cli.csproj" />
+  </Folder>
+</Solution>

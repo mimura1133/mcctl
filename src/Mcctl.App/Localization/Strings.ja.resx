@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from strings.tsv by tools/gen_resx.py. Edit the TSV, not this file. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="RemoveFromList" xml:space="preserve"><value>一覧から削除</value></data>
+  <data name="ToggleRoomPane" xml:space="preserve"><value>ルーム一覧の表示 / 折りたたみ</value></data>
+  <data name="SearchDevices" xml:space="preserve"><value>ネットワーク上のデバイスを再検索</value></data>
+  <data name="Rooms" xml:space="preserve"><value>ルーム</value></data>
+  <data name="AddByIp" xml:space="preserve"><value>IP アドレスで追加</value></data>
+  <data name="Add" xml:space="preserve"><value>追加</value></data>
+  <data name="IpExample" xml:space="preserve"><value>例: 192.168.1.20</value></data>
+  <data name="Language" xml:space="preserve"><value>表示言語</value></data>
+  <data name="SelectDevice" xml:space="preserve"><value>デバイスを選択してください</value></data>
+  <data name="Zone" xml:space="preserve"><value>ゾーン</value></data>
+  <data name="MainZone" xml:space="preserve"><value>メインゾーン</value></data>
+  <data name="Offline" xml:space="preserve"><value> · オフライン</value></data>
+  <data name="Mute" xml:space="preserve"><value>ミュート</value></data>
+  <data name="VolumeDown" xml:space="preserve"><value>音量 -</value></data>
+  <data name="VolumeUp" xml:space="preserve"><value>音量 +</value></data>
+  <data name="Input" xml:space="preserve"><value>入力</value></data>
+  <data name="SoundProgram" xml:space="preserve"><value>サウンド</value></data>
+  <data name="Sleep" xml:space="preserve"><value>スリープ</value></data>
+  <data name="SleepOff" xml:space="preserve"><value>オフ</value></data>
+  <data name="SleepMinutes" xml:space="preserve"><value>{0} 分</value></data>
+  <data name="PowerOnAction" xml:space="preserve"><value>電源を入れる</value></data>
+  <data name="StandbyAction" xml:space="preserve"><value>スタンバイにする</value></data>
+  <data name="NowPlaying" xml:space="preserve"><value>再生中</value></data>
+  <data name="Shuffle" xml:space="preserve"><value>シャッフル</value></data>
+  <data name="Previous" xml:space="preserve"><value>前へ</value></data>
+  <data name="PlayPause" xml:space="preserve"><value>再生 / 一時停止</value></data>
+  <data name="Next" xml:space="preserve"><value>次へ</value></data>
+  <data name="Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Repeat" xml:space="preserve"><value>リピート</value></data>
+  <data name="Tray" xml:space="preserve"><value>トレイ開閉</value></data>
+  <data name="SeekDown" xml:space="preserve"><value>自動選局 ↓</value></data>
+  <data name="FreqDown" xml:space="preserve"><value>周波数 -</value></data>
+  <data name="FreqUp" xml:space="preserve"><value>周波数 +</value></data>
+  <data name="SeekUp" xml:space="preserve"><value>自動選局 ↑</value></data>
+  <data name="PresetPrevButton" xml:space="preserve"><value>◀ プリセット</value></data>
+  <data name="PresetNextButton" xml:space="preserve"><value>プリセット ▶</value></data>
+  <data name="DirectTune" xml:space="preserve"><value>直接選局</value></data>
+  <data name="DirectTuneHint" xml:space="preserve"><value>FM は MHz (例 80.0)、AM は kHz (例 954)</value></data>
+  <data name="Tune" xml:space="preserve"><value>選局</value></data>
+  <data name="FrequencyFormatError" xml:space="preserve"><value>周波数を数値で入力してください (FM: MHz, AM: kHz)。</value></data>
+  <data name="Browse" xml:space="preserve"><value>ブラウズ</value></data>
+  <data name="BrowseUnavailable" xml:space="preserve"><value>この入力ではブラウズできません (ネットワーク / USB / サーバー入力を選択してください)</value></data>
+  <data name="Back" xml:space="preserve"><value>戻る</value></data>
+  <data name="Reload" xml:space="preserve"><value>再読み込み</value></data>
+  <data name="SearchPrompt" xml:space="preserve"><value> — 検索する文字列を入力してください</value></data>
+  <data name="Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="Search" xml:space="preserve"><value>検索</value></data>
+  <data name="SearchExample" xml:space="preserve"><value>例: jazz, NHK</value></data>
+  <data name="Play" xml:space="preserve"><value>再生</value></data>
+  <data name="Open" xml:space="preserve"><value>開く</value></data>
+  <data name="Presets" xml:space="preserve"><value>プリセット</value></data>
+  <data name="NetFavorites" xml:space="preserve"><value>お気に入り (ネットワーク)</value></data>
+  <data name="RecentAndTunerPresets" xml:space="preserve"><value>最近再生した項目 / チューナープリセット</value></data>
+  <data name="Recent" xml:space="preserve"><value>最近</value></data>
+  <data name="Tuner" xml:space="preserve"><value>チューナー</value></data>
+  <data name="StorePresetPrefix" xml:space="preserve"><value>ダブルクリックで呼び出し。 再生中の内容をプリセット番号</value></data>
+  <data name="StorePresetSuffix" xml:space="preserve"><value>に保存</value></data>
+  <data name="Sound" xml:space="preserve"><value>サウンド</value></data>
+  <data name="ToneControl" xml:space="preserve"><value>トーンコントロール</value></data>
+  <data name="Bass" xml:space="preserve"><value>低音 (Bass)</value></data>
+  <data name="Treble" xml:space="preserve"><value>高音 (Treble)</value></data>
+  <data name="SoundFeatures" xml:space="preserve"><value>サウンド機能</value></data>
+  <data name="NoSoundFeatures" xml:space="preserve"><value>このデバイスには切り替え可能なサウンド機能がありません。</value></data>
+  <data name="Link" xml:space="preserve"><value>リンク</value></data>
+  <data name="LinkStatus" xml:space="preserve"><value>現在の状態</value></data>
+  <data name="GroupName" xml:space="preserve"><value>グループ名</value></data>
+  <data name="LinkedDevices" xml:space="preserve"><value>リンク中のデバイス</value></data>
+  <data name="Unlink" xml:space="preserve"><value>リンクを解除</value></data>
+  <data name="LinkTargets" xml:space="preserve"><value>このデバイスの音声を配信するルーム</value></data>
+  <data name="LinkSelected" xml:space="preserve"><value>選択したルームとリンク</value></data>
+  <data name="LinkRoleServer" xml:space="preserve"><value>グループのマスター (server)</value></data>
+  <data name="LinkRoleClient" xml:space="preserve"><value>グループのメンバー (client)</value></data>
+  <data name="LinkRoleNone" xml:space="preserve"><value>リンクなし</value></data>
+  <data name="LinkSelectRequired" xml:space="preserve"><value>リンクするデバイスを選択してください。</value></data>
+  <data name="Info" xml:space="preserve"><value>情報</value></data>
+  <data name="DeviceInfo" xml:space="preserve"><value>デバイス情報</value></data>
+  <data name="ReloadAll" xml:space="preserve"><value>すべて再読み込み</value></data>
+  <data name="InfoModel" xml:space="preserve"><value>モデル</value></data>
+  <data name="InfoDeviceId" xml:space="preserve"><value>デバイス ID</value></data>
+  <data name="InfoSystemId" xml:space="preserve"><value>システム ID</value></data>
+  <data name="InfoDestination" xml:space="preserve"><value>仕向地</value></data>
+  <data name="InfoFirmware" xml:space="preserve"><value>ファームウェア</value></data>
+  <data name="InfoApiVersion" xml:space="preserve"><value>API バージョン</value></data>
+  <data name="InfoNetModule" xml:space="preserve"><value>ネットモジュール</value></data>
+  <data name="InfoIpAddress" xml:space="preserve"><value>IP アドレス</value></data>
+  <data name="AlwaysOnTop" xml:space="preserve"><value>常に手前に表示</value></data>
+  <data name="NoDevices" xml:space="preserve"><value>デバイスが見つかりません</value></data>
+  <data name="PresetPrev" xml:space="preserve"><value>前のプリセット</value></data>
+  <data name="PresetNext" xml:space="preserve"><value>次のプリセット</value></data>
+  <data name="Close" xml:space="preserve"><value>閉じる</value></data>
+  <data name="ErrorDevice" xml:space="preserve"><value>エラー: {0} ({1})</value></data>
+  <data name="ErrorNetwork" xml:space="preserve"><value>通信エラー: {0}</value></data>
+  <data name="ErrorTimeout" xml:space="preserve"><value>応答がありません (タイムアウト)。</value></data>
+  <data name="ErrorGeneric" xml:space="preserve"><value>エラー: {0}</value></data>
+  <data name="SearchPartialFailure" xml:space="preserve"><value>{0} 台検出、うち {1} 台に接続できません: {2}</value></data>
+  <data name="SearchNoDevices" xml:space="preserve"><value>デバイスが見つかりませんでした。IP アドレスを直接入力してください。</value></data>
+  <data name="CannotConnect" xml:space="preserve"><value>{0} に接続できません。{1}</value></data>
+  <data name="Added" xml:space="preserve"><value>{0} を追加しました。</value></data>
+  <data name="TunerSeeking" xml:space="preserve"><value>選局中…</value></data>
+</root>

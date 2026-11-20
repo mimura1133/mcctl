@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <RootNamespace>Mcctl</RootNamespace>
+    <AssemblyName>Mcctl.Core</AssemblyName>
+    <Description>Client library for Yamaha MusicCast devices (Yamaha Extended Control API, SSDP discovery, UDP events, MusicCast Link).</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;CS1573</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Mcctl.Core.Tests" />
+  </ItemGroup>
+
+</Project>
