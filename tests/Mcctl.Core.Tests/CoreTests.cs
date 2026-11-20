@@ -76,7 +76,7 @@ public class ClientTests
         await dev.SubscribeEventsAsync(41100);
         var req = Assert.Single(fake.Requests);
         Assert.Equal("41100", req.Headers.Get("X-AppPort"));
-        Assert.StartsWith("mcctl", req.Headers.Get("X-AppName"));
+        Assert.StartsWith("MusicCast/", req.Headers.Get("X-AppName")); // the device ignores other app names
     }
 
     [Fact]

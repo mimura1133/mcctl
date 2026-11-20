@@ -41,6 +41,17 @@ try
 
     using var dev = new MusicCastDevice(args[1]);
     var zone = Opt("--zone") ?? "main";
+
+    // Optional: make every request register for UDP events (to debug notifications).
+    if (Opt("--event-port") is { } eventPort)
+    {
+        dev.Client.EventPort = int.Parse(eventPort);
+    }
+
+    if (Opt("--app-name") is { } appName)
+    {
+        dev.Client.EventAppName = appName;
+    }
     string Arg(int i) => args.Length > i ? args[i] : throw new ArgumentException($"Missing argument #{i}.");
     async Task<string> ResolveInputAsync() => Opt("--input") ?? (await dev.Zone(zone).GetStatusAsync()).Input;
 
@@ -175,7 +186,7 @@ try
         case "raw":
             // mcctl raw <host> netusb/getPlayInfo                    (GET)
             // mcctl raw <host> netusb/setSearchString '{"string":"x"}' (POST with a JSON body)
-            var resp = args.Length > 3
+            var resp = args.Length > 3 && !args[3].StartsWith("--")
                 ? await dev.Client.PostAsync(Arg(2), JsonDocument.Parse(Arg(3)).RootElement)
                 : await dev.Client.GetAsync(Arg(2));
             Dump(resp);
@@ -220,6 +231,7 @@ static void PrintUsage() => Console.WriteLine("""
       mcctl search <host> <index> <text> [--input id]
       mcctl link <server> <client> [...]     mcctl unlink <server> [client ...]
       mcctl events <host> [--port 41100]     mcctl raw <host> <path?query> [json-body]
+      options: --zone <id>  --event-port <udp port> --app-name <name>  (send event registration headers)
     """);
 
 /// <summary>Shared state for the top-level program (options are cached; creating them per call is costly).</summary>

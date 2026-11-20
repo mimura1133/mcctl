@@ -35,7 +35,7 @@ public sealed class MainViewModel : ObservableObject, IAsyncDisposable
         _notificationTimer.Tick += (_, _) => HideNotification();
 
         // Fallback refresh in case UDP is blocked by a firewall.
-        _poll = new DispatcherTimer { Interval = TimeSpan.FromSeconds(15) };
+        _poll = new DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
         _poll.Tick += async (_, _) =>
         {
             if (SelectedDevice is { } d)

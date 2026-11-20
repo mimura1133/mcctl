@@ -43,8 +43,10 @@ public sealed class YxcClient : IDisposable
     /// When set together with <see cref="EventPort"/>, every request carries
     /// <c>X-AppName</c>/<c>X-AppPort</c> so the device pushes UDP events to this host
     /// for about 10 minutes after the last such request.
+    /// The name must start with <c>MusicCast/</c>: the R-N1000A ignores the registration otherwise
+    /// (verified: "mcctl/1.0(Windows)" gets no events, "MusicCast/1.0(Windows)" gets them within ~0.2 s).
     /// </summary>
-    public string EventAppName { get; set; } = "mcctl/1.0(Windows)";
+    public string EventAppName { get; set; } = "MusicCast/1.0(Windows)";
 
     public int? EventPort { get; set; }
 
