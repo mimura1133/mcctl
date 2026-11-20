@@ -9,6 +9,17 @@ Repository: <https://github.com/mimura1133/mcctl>
 > mcctl is an independent project and is not affiliated with, endorsed by or sponsored by Yamaha Corporation.
 > Yamaha and MusicCast are trademarks or registered trademarks of Yamaha Corporation.
 
+## Screenshots
+
+<p>
+  <img src="docs/images/screenshot-full-en.png" alt="mcctl main window: room list, volume and input, and Now Playing with artwork and audio format" width="640">
+  <img src="docs/images/screenshot-mini-en.png" alt="mcctl mini player shown when the window is small" width="277">
+</p>
+
+Main window (left) and the mini player shown when the window is small (right). Screenshots use sample data.
+
+## Project layout
+
 ```
 Mcctl.slnx
 ├─ src/Mcctl.Core   … protocol library (net11.0, no external packages)
@@ -49,7 +60,7 @@ docker run --rm -v "%CD%:/src:ro" mcr.microsoft.com/dotnet/sdk:11.0 bash -c "cp 
 | Link | MusicCast Link (multi-room): link other rooms to this one, unlink, dissolve the group |
 | Mini player | Below 720 × 480 the window turns into a compact player (artwork, track, transport, volume, input, always-on-top) |
 | Language | English / Japanese, switchable at runtime from the room pane ("System" follows the Windows display language) |
-| Live updates | Receives UDP push notifications, with 15-second polling as a fallback |
+| Live updates | Receives UDP push notifications (changes show within a fraction of a second), with 5-second polling as a fallback |
 
 Settings are stored in `%APPDATA%\mcctl\`: `hosts.json` (rooms you added by IP) and `settings.json` (UI language).
 
